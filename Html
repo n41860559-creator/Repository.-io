@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Панель управления — Нурэл</title>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <div class="dashboard">
+        <!-- Шапка -->
+        <div class="dash-header">
+            <div class="user-status">
+                <div class="status-dot"></div>
+                <span>В сети / Разрабатывает</span>
+            </div>
+            <button id="themeBtn" class="theme-btn">☀️ Светлая тема</button>
+        </div>
+
+        <!-- Информация о владельце -->
+        <div class="profile-info">
+            <h1>Нурэл</h1>
+            <p>IT-специалист, разработчик игр и сайтов</p>
+        </div>
+
+        <!-- Интерактивная панель с JavaScript -->
+        <div class="action-panel">
+            <h3>Интерактивная панель статусов</h3>
+            <div class="controls">
+                <button id="actionBtn" class="btn">Сменить статус</button>
+            </div>
+        </div>
+
+        <!-- Вывод данных -->
+        <div id="outputText" class="output-box">
+            Статус: Пишу код на Python 🚀
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
